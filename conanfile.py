@@ -6,7 +6,7 @@ class ConfiguruConan(ConanFile):
     version = "0.4.1"
     license = "Public Domain"
     author = "Darlan Cavalcante Moreira (darcamo@gmail.com)"
-    url = "https://github.com/darcamo/conan-recipes"
+    url = "https://github.com/darcamo/conan-configuru"
     description = "Configuru, an experimental JSON config library for C++x"
     no_copy_source = True
     homepage = "https://github.com/emilk/Configuru"

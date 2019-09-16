@@ -1,4 +1,4 @@
-from conans import ConanFile, CMake, tools
+from conans import CMake, ConanFile, tools
 
 
 class ConfiguruConan(ConanFile):
@@ -17,3 +17,6 @@ class ConfiguruConan(ConanFile):
 
     def package(self):
         self.copy("configuru.hpp", dst="include", src="Configuru")
+
+    def package_id(self):
+        self.info.header_only()
